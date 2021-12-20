@@ -121,7 +121,7 @@ class Fun(commands.Cog, name="fun"):
                     )
                 else:
                     embed = disnake.Embed(
-                        title="Error!",
+                        title="Error! No API!",
                         description="There is something wrong with the API, please try again later",
                         color=0xE02B2B
                     )
